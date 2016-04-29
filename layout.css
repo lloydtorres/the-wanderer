@@ -1,0 +1,95 @@
+/**
+ * Reset some basic elements
+ */
+body, h1, h2, h3, h4, h5, h6,
+p, blockquote, pre, hr,
+dl, dd, ol, ul, figure {
+    margin: 0;
+    padding: 0;
+}
+
+/**
+ * Basic styling
+ */
+body {
+    background: #68B3AF !important;
+    font-family: 'Cabin Condensed', sans-serif !important;
+    font-size: 14px !important;
+    color: black;
+}
+
+h2 {
+    font-family: 'Fjalla One', sans-serif !important;
+    font-size: 17px !important;
+    color: black;
+}
+
+p {
+    font-family: 'Cabin Condensed', sans-serif !important;
+    font-size: 14px !important;
+    color: black;
+}
+
+@media only screen and (max-width: 480px) {
+  .mobile-unpad {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important; } }
+
+.header {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 480px) {
+  .header {
+    margin-top: 0px;
+    margin-bottom: 10px; } }
+
+.header img {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+
+@media only screen and (min-width: 768px) {
+  .left-unpad {
+    padding-left: 0 !important; } }
+
+@media only screen and (min-width: 768px) {
+  .right-unpad {
+    padding-right: 0 !important; } }
+
+.sidebar {
+    background: #D3E2B6;
+    padding: 10px;
+}
+
+.col-center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.social-icons {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.social-icons span {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: #87BDB1;
+}
+
+.sidebar-footer {
+    padding-top: 10px;
+    font-family: 'Cabin Condensed', sans-serif;
+    font-size: 12px;
+    text-align: center;
+}
