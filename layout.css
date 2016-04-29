@@ -93,3 +93,50 @@ p {
     font-size: 12px;
     text-align: center;
 }
+
+#comicimage {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.controls {
+    display: block;
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    padding-top: 10px;
+    padding-bottom: 70px;
+}
+
+.controls span {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: #AACCB1;
+}
+
+.controls .controls-left {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.controls .controls-right {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.comments {
+    background: #D3E2B6;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-bottom: 20px;
+}

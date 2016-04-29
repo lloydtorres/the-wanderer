@@ -1,0 +1,41 @@
+[v:comicimage]
+
+<div class="controls">
+    [c:!isfirstcomic]
+    <div class="controls-left">
+        <a href="/comics/first" title="First"/><span class="fa fa-backward fa-3x"></span></a>
+        <a href="[v:prevcomic]" title="Previous"/><span class="fa fa-chevron-left fa-3x"></span></a>
+    </div>
+    [/]
+    [c:!islastcomic]
+    <div class="controls-right">
+        <a href="[v:nextcomic]" title="Next"/><span class="fa fa-chevron-right fa-3x"></span></a>
+        <a href="/comics/" title="Latest"/><span class="fa fa-forward fa-3x"></span></a>
+    </div>
+    [/]
+</div>
+
+<div class="comments">
+    <h2>[v:comictitle]</h2>
+    [l:authornotes]
+        <p>[v:l.authorname] on [v:l.posttime]</p>
+        <p>[v:l.comment]</p>
+    [/]
+    <h2>Comments</h2>
+    <div id="disqus_thread"></div>
+    <script>
+    var disqus_config = function () {
+    this.page.url = '[v:permalink]';
+    this.page.identifier = '[v:permalink]';
+    };
+    (function() { // DON'T EDIT BELOW THIS LINE
+    var d = document, s = d.createElement('script');
+
+    s.src = '//thewanderercomic.disqus.com/embed.js';
+
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+    })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+</div>
